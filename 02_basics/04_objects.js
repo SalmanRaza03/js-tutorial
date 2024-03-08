@@ -47,5 +47,20 @@ const arrayOfObjects = [
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true
-console.log(tinderUser.hasOwnProperty('isLoggedOut'));//false because there's no key as such as isLoggedOut.
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true
+// console.log(tinderUser.hasOwnProperty('isLoggedOut'));//false because there's no key as such as isLoggedOut.
+
+//-----------------------DESTRUCTURING---------------------------------
+
+const course = {
+    name: "JavaScript Mastery",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// console.log(course.courseInstructor);//normal way of accessing object members
+const {courseInstructor} = course;//one way of doing it
+console.log(courseInstructor);
+
+const {courseInstructor: ins} = course;
+console.log(ins);
