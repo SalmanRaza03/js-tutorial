@@ -12,5 +12,5 @@ console.log("1" > "");//true => here empty string is considered as 0 when conver
 console.log("2" === 2);//false => here, the 2 is not typecasted into a common type, rather it is compared as it is, hence the output
 
 /* 
-when using strictly equal to(===) and not strictly equal to(!==) operators, the value is not typecasted into common type and is compared as it is, unlike normal equal to and not equal to operators.
+when using strictly equal to(===) and strictly not equal to(!==) operators, the value is not typecasted into common type and compared. It is compared as it is, unlike normal equal to and not equal to operators.
 */
