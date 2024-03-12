@@ -17,7 +17,9 @@
     undefined
 */
 let variable = 45;
+const sym = Symbol('123');
 console.log(typeof null);//object
 console.log(typeof undefined)//undefined
+console.log(typeof sym)//symbol
 
 console.log("Learnt Datatypes");
