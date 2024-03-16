@@ -41,6 +41,8 @@ const myTimeStamp = Date.now();
 // console.log(createDate.getTime());//1061942400000
 // console.log(Math.floor(myTimeStamp/1000));//1709869078........this is to convert milliseconds to seconds.
 
+//In JavaScript, the concept of time is based on the number of milliseconds elapsed since January 1, 1970, 00:00:00 UTC.
+
 //custom modification of toLocaleString()
 
 const secondDate = new Date();
