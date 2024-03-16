@@ -24,6 +24,7 @@ const obj2 = {3:"c", 4:"d"};
 const obj3 = {...obj1, ...obj2};
 // const obj3 = Object.assign({}, obj1, obj2);
 // console.log(obj3);
+// console.log(obj1);
 
 const arrayOfObjects = [
     {
@@ -60,7 +61,30 @@ const course = {
 
 // console.log(course.courseInstructor);//normal way of accessing object members
 const {courseInstructor} = course;//one way of doing it
-console.log(courseInstructor);
+// console.log(courseInstructor);
+
+const {price: pr} = course;
+// console.log(pr);
 
 const {courseInstructor: ins} = course;
-console.log(ins);
+// console.log(ins);
+
+//-----FOR ARRAYS------
+const myArr = ['salman', 21, true];
+// console.log(myArr[1]);
+
+const [name, age, isLogged] = myArr
+// console.log(name)//salman
+// console.log(age)//21
+// console.log(isLogged)//true
+
+// const [age, isLogged] = myArr
+// console.log(age)//salman
+// console.log(isLogged)//21
+
+// const [age] = myArr;
+// console.log(age);//salman
+//if you give only one parameter inside the destructured array, then it will consider only the first index. 
+// This is because it starts from index 0 and goes on to match till the last index
+// Hence, if you give only 1 parameter, it will take index 0. If you take 2 parameters, it will take index 0 and 1 and so on.
+
