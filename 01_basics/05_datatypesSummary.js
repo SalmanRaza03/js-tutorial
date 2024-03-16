@@ -15,13 +15,13 @@ let value1 = Symbol('123');//symbol
 let value2 = Symbol('123');//symbol
 let largeNum = 32479837488874n;//bigint
 
-// console.log(typeof num)
-// console.log(typeof name);
-// console.log(typeof isLoggedIn);
+// console.log(typeof num)//number
+// console.log(typeof name);///string
+// console.log(typeof isLoggedIn);//boolean
 // console.log(typeof temperature);//since it is a null value, it returns its type as object
-// console.log(typeof isPresent)
-// console.log(typeof value1);
-// console.log(typeof largeNum);
+// console.log(typeof isPresent)//undefined
+// console.log(typeof value1);//symbol
+// console.log(typeof largeNum);//bigint
 
 // console.log(value1);
 // console.log(value2);
@@ -38,9 +38,9 @@ function add(a,b){
     return a+b;
 }
 
-// console.log(typeof heroes);
-// console.log(typeof obj);
-// console.log(typeof add);
+// console.log(typeof heroes);//object
+// console.log(typeof obj);//object
+// console.log(typeof add);//Object function
 
 //---------------------------------------------------------------------------------------------------
 //Stack Memory is used for primitive datatypes and Heap memory is used for Non-primitive(Reference) datatypes.
