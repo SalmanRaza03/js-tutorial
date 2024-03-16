@@ -40,3 +40,6 @@ let num1 = ++num;
 console.log(typeof num1);
 console.log(num1);
 
+console.log(+true)
+console.log(+"")
+
