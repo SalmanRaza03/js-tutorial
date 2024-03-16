@@ -12,6 +12,7 @@ const myObj = {
     age: 20,
     isLoggedIn: false
 };
+// console.log(myObj);
 
 // console.log(myObj.name);
 // console.log(myObj["email"]);
@@ -36,10 +37,10 @@ myObj.greeting = ()=>{
 }
 
 // console.log(myObj.greeting);//[Function (anonymous)]
-console.log(myObj.greeting());//Hello User
+// console.log(myObj.greeting());//Hello User
 
 myObj.greetingTwo = function(){
     console.log(`Hello User, ${this.name}`);
 }
 
-console.log(myObj.greetingTwo());
+// console.log(myObj.greetingTwo());
