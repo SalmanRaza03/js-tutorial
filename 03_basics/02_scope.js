@@ -2,7 +2,7 @@
 // const b = 40;
 // var c = 60;
 
-let a = 24;
+// let a = 24;
 if(true){
     let a = 20;
     const b = 40;
@@ -10,8 +10,8 @@ if(true){
     // console.log("INNER: ", a);
 }
 
-// console.log(a);
-// console.log(a)//gives an error due to scope
+// console.log(a);//24
+// console.log(a)//gives an error if a is not defined in line 5 due to scope 
 // console.log(b)//gives an error due to scope
 // console.log(c)//output 60 as declared using var
 
@@ -22,7 +22,7 @@ function one(){
         const editor = "vscode"
         console.log(userName)
     }
-    console.log(website)
+    console.log(editor)
     two();
 }
 // console.log(userName);
