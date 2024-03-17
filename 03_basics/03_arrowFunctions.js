@@ -5,8 +5,10 @@ const user = {
     age: 18,
     welcomeMessage: function(){
         console.log(`${this.name}, welcome to our website`);
+        console.log(this)
     }
 }
+//console.log(this)//output is {} i.e., empty object
 // console.log(user);
 // user.welcomeMessage();
 // user.name = "raza";
@@ -29,6 +31,14 @@ const user = {
 
 
 // ------------------------ARROW FUNCTIONS------------------------------
+
+// const chai = () => {
+//     let username = 'hitesh'; // Enclosed in quotes to make it a string
+//     console.log(this);//outputs {} as it refers to its nearest context which is the global context
+// };
+
+// chai();
+
 
 // const addTwoNumbers = (num1, num2) => {       //when you use {}, you have to return something explicitly for sure.
 //     return num1 + num2;
