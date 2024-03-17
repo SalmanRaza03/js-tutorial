@@ -6,6 +6,8 @@
 // ------NOTE---------
 //In interview, you need to answer about iife as follows:
 //In order to avoid any kind of pollution due to global variables, functions etc, iife is used
+//here, pollution due to global scope refers to the variables, objects etc accessible from global scope to local scope hence 
+// causing any sort of pollution
 
 //normal function
 function connect(){
