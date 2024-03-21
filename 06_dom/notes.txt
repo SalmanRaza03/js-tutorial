@@ -1,0 +1,4 @@
+//this is done in the browser console
+//console.log(window)
+//console.log(window.document) or console.log(document). Both serve the same purpose
+//console.dir(document) gives all the methods corresponding to document
