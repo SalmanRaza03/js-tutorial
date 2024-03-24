@@ -62,3 +62,17 @@ if you add a span tag and add some content and make the display of the content n
 
 
 
+---------------------------------------------------------------------------------------------------------------
+
+
+There are two ways of creating attributes for a particular element.
+This is mainly done after creating an element using .createElement
+
+The two ways are as follows:
+Firstly, create an element, let's say, div
+1. Now, you can create an attribute using . as div.className = 'main' and so on 
+2. Also, you can use setAttribute method as follows
+        div.setAttribute('attributeKey', 'attributeValue)
+
+In optimization, the first way of creating or setting attribute is done by locating the memory and bringing it and then overriding or assigning the value and returning back.
+In the second way, it doesn't bring anything and directly makes the changes at the location. Hence, one round trip is reduced.
