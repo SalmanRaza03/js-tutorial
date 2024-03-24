@@ -27,5 +27,23 @@
         toAppend.appendChild(li);
     }
     addOptimisedLanguage("typescript")
+
+    //edit elements
+
+    const secondLang = document.querySelector('li:nth-child(2)')
+    // console.log(secondLang);
+    // secondLang.innerHTML = "Ruby"
+    //another way of doing it is
+    const newOne = document.createElement('li');
+    newOne.textContent = 'Ruby'
+    secondLang.replaceWith(newOne);
+
+    //edit
+    const firstLang = document.querySelector('li:first-child');
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    //remove elements
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove();
 </script>
 </html>
